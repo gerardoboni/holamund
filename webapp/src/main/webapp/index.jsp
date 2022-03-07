@@ -1,19 +1,43 @@
-<!-- Surround the select box within a "custom-select" DIV element.
-Remember to set the width: -->
-<div class="custom-select" style="width:200px;">
-  <select>
-    <option value="0">Select car:</option>
-    <option value="1">Audi</option>
-    <option value="2">BMW</option>
-    <option value="3">Citroen</option>
-    <option value="4">Ford</option>
-    <option value="5">Honda</option>
-    <option value="6">Jaguar</option>
-    <option value="7">Land Rover</option>
-    <option value="8">Mercedes</option>
-    <option value="9">Mini</option>
-    <option value="10">Nissan</option>
-    <option value="11">Toyota</option>
-    <option value="12">Volvo</option>
-  </select>
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
 </div>
