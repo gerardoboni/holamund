@@ -1,19 +1,19 @@
-<form action="/action_page.php">
-  <h2>Register Form</h2>
-  <div class="input-container">
-    <i class="fa fa-user icon"></i>
-    <input class="input-field" type="text" placeholder="Username" name="usrnm">
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-envelope icon"></i>
-    <input class="input-field" type="text" placeholder="Email" name="email">
-  </div>
-
-  <div class="input-container">
-    <i class="fa fa-key icon"></i>
-    <input class="input-field" type="password" placeholder="Password" name="psw">
-  </div>
-
-  <button type="submit" class="btn">Register</button>
-</form>
+<!-- Surround the select box within a "custom-select" DIV element.
+Remember to set the width: -->
+<div class="custom-select" style="width:200px;">
+  <select>
+    <option value="0">Select car:</option>
+    <option value="1">Audi</option>
+    <option value="2">BMW</option>
+    <option value="3">Citroen</option>
+    <option value="4">Ford</option>
+    <option value="5">Honda</option>
+    <option value="6">Jaguar</option>
+    <option value="7">Land Rover</option>
+    <option value="8">Mercedes</option>
+    <option value="9">Mini</option>
+    <option value="10">Nissan</option>
+    <option value="11">Toyota</option>
+    <option value="12">Volvo</option>
+  </select>
+</div>
